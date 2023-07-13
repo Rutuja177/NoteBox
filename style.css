@@ -1,0 +1,41 @@
+body{
+    background-color: #D3D3D3;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    position: relative;
+}
+.input{
+    border:none;
+    font-size: 14px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.noteContainer{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.noteBlock{
+    display: inline-block;
+    margin: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5%;
+    width: 70px;
+}
+.span-close{
+    float: right;
+    cursor: pointer;
+}
+.noteUpdate{
+    
+    background: powderblue;
+}
+
